@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args){
 
         //declare variables
-        Scanner sc = new Scanner(System.in);
+        
         double balance = 0;
 
         boolean isRunning = true;
