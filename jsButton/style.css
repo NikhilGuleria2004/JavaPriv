@@ -1,0 +1,22 @@
+body{
+    font-family: monospace;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+
+button{
+    background-color: black;
+    color: white;
+    height: 50%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+.numContainer{
+    display: flex;
+    align-items: center;
+    
+}
