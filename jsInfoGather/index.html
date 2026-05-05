@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
+</head>
+<body>
+    <div class="container">
+        
+        <div class="window">
+            <div class="title-bar">
+                <button aria-label="Close" class="close"></button>
+                <h1 class="title">The Info Hub</h1>
+                <button aria-label="Resize" class="resize"></button>
+            </div>
+            <div class="separator"></div>
+            <div class="window-pane">
+                This is where we gather all your fucking info - personal, proffessional and social!
+            </div>
+        </div>
+
+        <div class="window">
+            <div class="title-bar">
+                <button aria-label="Close" class="close"></button>
+                <h1 class="title">Personal Information</h1>
+                <button aria-label="Resize" class="resize"></button>
+            </div>
+            <div class="separator"></div>
+            <div class="window-pane">
+                <form action="" class="personalInfo">
+                    <input type="text" placeholder="First Name">
+                    <p></p>
+                    <input type="text" placeholder="Last Name">
+                    <p>Date of Birth:</p>
+                    <input type="date" placeholder="Date of Birth">
+                    <p></p>
+                    <input type="number" placeholder="Age">
+                    <p></p>
+                    <input type="email" placeholder="Personal Email">
+                    <p></p>
+                    <input type="text" placeholder="Address">
+                    <p></p>
+                    <button class="personalSubmitBtn btn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+
+        <div class="window">
+            <div class="title-bar">
+                <button aria-label="Close" class="close"></button>
+                <h1 class="title">Proffessional Information</h1>
+                <button aria-label="Resize" class="resize"></button>
+            </div>
+            <div class="separator"></div>
+            <div class="window-pane">
+                <form action="" class="proffessionalInfo">
+                    <p>Employment Status</p>
+                    <div class="field-row">
+                        <input id="radio1" type="radio" name="first-example">
+                        <label for="radio1">Employed</label>
+                    </div>
+                    <div class="field-row">
+                        <input id="radio2" type="radio" name="first-example">
+                        <label for="radio2">Unemployed</label>
+                    </div>
+                    <p></p>
+                    <input type="text" placeholder="Employer Name">
+                    <p></p>
+                    <input type="number" placeholder="Years of Experience">
+                    <p></p>
+                    <label for="">Relevant Skills</label> <br>
+                    <select name="" id="dropdown" multiple>
+                        <option value="C++">C++</option>
+                        <option value="Java">Java</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Python">Python</option>
+                        <option value="ReactJS">ReactJS</option>
+                        <option value="NodeJS">NodeJS</option>
+                        <option value="Angular">Angular</option>
+                        <option value="SpringBoot">SpringBoot</option>
+                        <option value="Django">Django</option>
+                        <option value="Flask">Flask</option>
+                        <option value="FastAPI">FastAPI</option>
+
+                    </select>
+                    <br>
+                    <br>
+                    <div class="selected-items" id="output">
+                        <strong>Selected:</strong>
+                        <ul id="list"></ul>
+                    </div>
+
+                    <br>
+                    <input type="text" placeholder="College/University"><br><br>
+                    <input type="number" placeholder="GPA"><br><br>
+                    <input type="text" placeholder="Degree"><br><br>
+
+                    <button class="btn proffessionalInfoSubmitBtn" type="submit">Submit Info</button>
+                    
+                </form>
+
+            </div>
+        </div>
+
+
+        
+
+
+
+
+    </div>
+    
+</body>
+</html>
